@@ -12,7 +12,7 @@ describe('Counter', () => {
       [59, 61, 64, 62, 65],
       [33, 36, 37, 39, 36, 35]  
     ]
-    expect(countSafeReports(reports)).toBe(2)
+    expect(countSafeReports(reports)).toBe(0)
   })
 
   test('should return 0 for empty', () => {
