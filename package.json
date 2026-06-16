@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-day2",
+  "version": "1.0.0",
+  "description": "Red-Nosed Reports Safety Check",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
